@@ -20,7 +20,7 @@ public:
         adj_rev[v].push_back(u);
     }
 
-    void iterative_dfs1(int start_node, std::vector<bool>& visited, std::vector<int>& order) const {
+    void dfs1(int start_node, std::vector<bool>& visited, std::vector<int>& order) const {
         std::vector<std::pair<int, size_t>> st;
         visited[start_node] = true;
         st.push_back({start_node, 0});
@@ -43,7 +43,7 @@ public:
         }
     }
 
-    void iterative_dfs2(int start_node, std::vector<bool>& visited, std::vector<int>& current_component) const {
+    void dfs2(int start_node, std::vector<bool>& visited, std::vector<int>& current_component) const {
         std::vector<int> st;
         visited[start_node] = true;
         st.push_back(start_node);
@@ -71,7 +71,7 @@ public:
 
         for (int i = 1; i <= n; ++i) {
             if (!visited[i]) {
-                iterative_dfs1(i, visited, order);
+                dfs1(i, visited, order);
             }
         }
 
@@ -82,7 +82,7 @@ public:
             int u = order[i];
             if (!visited[u]) {
                 std::vector<int> current_component;
-                iterative_dfs2(u, visited, current_component);
+                dfs2(u, visited, current_component);
                 scc_list.push_back(current_component);
             }
         }
