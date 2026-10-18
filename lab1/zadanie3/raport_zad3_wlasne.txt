@@ -1,0 +1,13 @@
+TEST: silniespojny.txt
+Liczba silnie spojnych skladowych: 1
+Skladowa 1: 10 wierzcholkow -> wierzcholki: 1 10 9 8 7 6 5 4 3 2 
+Czas wykonania: 0.005562 ms
+
+TEST: spojneskladowe.txt
+Liczba silnie spojnych skladowych: 3
+Skladowa 1: 4 wierzcholkow -> wierzcholki: 1 4 3 2 
+Skladowa 2: 4 wierzcholkow -> wierzcholki: 5 8 7 6 
+Skladowa 3: 4 wierzcholkow -> wierzcholki: 9 12 11 10 
+Czas wykonania: 0.00601 ms
+
+

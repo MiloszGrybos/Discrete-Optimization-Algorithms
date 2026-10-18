@@ -1,0 +1,60 @@
+TEST: ../../3/g3-1.txt
+Liczba silnie spojnych skladowych: 5
+Skladowa 1: 5 wierzcholkow -> wierzcholki: 1 2 3 4 5 
+Skladowa 2: 4 wierzcholkow -> wierzcholki: 12 15 14 13 
+Skladowa 3: 4 wierzcholkow -> wierzcholki: 6 8 9 7 
+Skladowa 4: 2 wierzcholkow -> wierzcholki: 10 11 
+Skladowa 5: 1 wierzcholkow -> wierzcholki: 16 
+Czas wykonania: 0.007135 ms
+
+
+TEST: ../../3/g3-2.txt
+Liczba silnie spojnych skladowych: 5
+Skladowa 1: 6 wierzcholkow -> wierzcholki: 1 2 3 4 5 6 
+Skladowa 2: 40 wierzcholkow -> wierzcholki: 67 106 105 104 103 102 101 100 99 98 97 96 95 94 93 92 91 90 89 88 87 86 85 84 83 82 81 80 79 78 77 76 75 74 73 72 71 70 69 68 
+Skladowa 3: 36 wierzcholkow -> wierzcholki: 7 13 14 8 20 21 15 9 27 28 22 16 10 34 35 29 23 17 11 41 42 36 30 24 18 12 40 33 39 26 32 38 19 25 31 37 
+Skladowa 4: 24 wierzcholkow -> wierzcholki: 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 
+Skladowa 5: 1 wierzcholkow -> wierzcholki: 107 
+Czas wykonania: 0.019614 ms
+
+
+TEST: ../../3/g3-3.txt
+Liczba silnie spojnych skladowych: 5
+Skladowa 1: 7 wierzcholkow
+Skladowa 2: 400 wierzcholkow
+Skladowa 3: 400 wierzcholkow
+Skladowa 4: 200 wierzcholkow
+Skladowa 5: 1 wierzcholkow
+Czas wykonania: 0.095281 ms
+
+
+TEST: ../../3/g3-4.txt
+Liczba silnie spojnych skladowych: 5
+Skladowa 1: 8 wierzcholkow
+Skladowa 2: 4000 wierzcholkow
+Skladowa 3: 3600 wierzcholkow
+Skladowa 4: 2400 wierzcholkow
+Skladowa 5: 1 wierzcholkow
+Czas wykonania: 0.409116 ms
+
+
+TEST: ../../3/g3-5.txt
+Liczba silnie spojnych skladowych: 5
+Skladowa 1: 9 wierzcholkow
+Skladowa 2: 40000 wierzcholkow
+Skladowa 3: 40000 wierzcholkow
+Skladowa 4: 20000 wierzcholkow
+Skladowa 5: 1 wierzcholkow
+Czas wykonania: 4.28871 ms
+
+
+TEST: ../../3/g3-6.txt
+Liczba silnie spojnych skladowych: 5
+Skladowa 1: 10 wierzcholkow
+Skladowa 2: 400000 wierzcholkow
+Skladowa 3: 360000 wierzcholkow
+Skladowa 4: 240000 wierzcholkow
+Skladowa 5: 1 wierzcholkow
+Czas wykonania: 79.8604 ms
+
+

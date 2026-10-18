@@ -1,0 +1,12 @@
+TEST: dag.txt
+Graf nie ma
+Porzadek topologiczny (14 wierzcholkow):
+1 2 3 4 5 6 7 8 9 10 11 12 14 13 
+Czas wykonania: 0.001132 ms
+
+
+TEST: cykl.txt
+Graf ma cykl
+Czas wykonania: 0.000885 ms
+
+

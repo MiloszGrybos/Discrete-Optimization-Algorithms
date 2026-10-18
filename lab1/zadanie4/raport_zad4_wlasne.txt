@@ -1,0 +1,24 @@
+TEST: dwu_D.txt
+Graf jest dwudzielny.
+Podzbior V0 (6 wierzcholkow): 1 2 3 4 5 6 
+Podzbior V1 (6 wierzcholkow): 7 8 9 10 11 12 
+Czas wykonania: 0.001398 ms
+
+
+TEST: dwu_U.txt
+Graf jest dwudzielny.
+Podzbior V0 (6 wierzcholkow): 1 2 3 4 5 6 
+Podzbior V1 (6 wierzcholkow): 7 8 9 10 11 12 
+Czas wykonania: 0.001507 ms
+
+
+TEST: ndwu_D.txt
+Graf nie jest dwudzielny.
+Czas wykonania: 0.001114 ms
+
+
+TEST: ndwu_U.txt
+Graf nie jest dwudzielny.
+Czas wykonania: 0.001117 ms
+
+

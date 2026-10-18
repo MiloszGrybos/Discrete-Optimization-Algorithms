@@ -1,0 +1,238 @@
+TEST: g1_skierowany.txt
+
+--- BFS ---
+Kolejnosc odwiedzin (6 wierzcholkow):
+1 2 3 4 5 6 
+Krawedzie drzewa BFS (5 krawedzi):
+1 -> 2
+1 -> 3
+2 -> 4
+2 -> 5
+3 -> 6
+Czas wykonania BFS: 0.002085 ms
+
+--- DFS ---
+Kolejnosc odwiedzin (6 wierzcholkow):
+1 2 3 5 6 4 
+Krawedzie drzewa DFS (5 krawedzi):
+1 -> 2
+2 -> 3
+3 -> 5
+5 -> 6
+2 -> 4
+Czas wykonania DFS: 0.001943 ms
+
+TEST: g1_nieskierowany.txt
+
+--- BFS ---
+Kolejnosc odwiedzin (6 wierzcholkow):
+1 2 3 4 5 6 
+Krawedzie drzewa BFS (5 krawedzi):
+1 -> 2
+1 -> 3
+2 -> 4
+2 -> 5
+3 -> 6
+Czas wykonania BFS: 0.002234 ms
+
+--- DFS ---
+Kolejnosc odwiedzin (6 wierzcholkow):
+1 2 3 5 4 6 
+Krawedzie drzewa DFS (5 krawedzi):
+1 -> 2
+2 -> 3
+3 -> 5
+5 -> 4
+5 -> 6
+Czas wykonania DFS: 0.002977 ms
+
+TEST: g2_D
+
+--- BFS ---
+Kolejnosc odwiedzin (8 wierzcholkow):
+1 2 4 3 6 8 5 7 
+Krawedzie drzewa BFS (7 krawedzi):
+1 -> 2
+1 -> 4
+2 -> 3
+2 -> 6
+4 -> 8
+6 -> 5
+6 -> 7
+Czas wykonania BFS: 0.002544 ms
+
+--- DFS ---
+Kolejnosc odwiedzin (8 wierzcholkow):
+1 2 3 4 8 7 6 5 
+Krawedzie drzewa DFS (7 krawedzi):
+1 -> 2
+2 -> 3
+3 -> 4
+4 -> 8
+8 -> 7
+2 -> 6
+6 -> 5
+Czas wykonania DFS: 0.002424 ms
+
+TEST: g2_U
+
+--- BFS ---
+Kolejnosc odwiedzin (8 wierzcholkow):
+1 2 4 5 3 6 8 7 
+Krawedzie drzewa BFS (7 krawedzi):
+1 -> 2
+1 -> 4
+1 -> 5
+2 -> 3
+2 -> 6
+4 -> 8
+3 -> 7
+Czas wykonania BFS: 0.002455 ms
+
+--- DFS ---
+Kolejnosc odwiedzin (8 wierzcholkow):
+1 2 3 4 8 5 6 7 
+Krawedzie drzewa DFS (7 krawedzi):
+1 -> 2
+2 -> 3
+3 -> 4
+4 -> 8
+8 -> 5
+5 -> 6
+6 -> 7
+Czas wykonania DFS: 0.002594 ms
+
+TEST: g3_D
+
+--- BFS ---
+Kolejnosc odwiedzin (9 wierzcholkow):
+1 2 3 5 4 6 8 7 9 
+Krawedzie drzewa BFS (8 krawedzi):
+1 -> 2
+1 -> 3
+1 -> 5
+2 -> 4
+3 -> 6
+4 -> 8
+6 -> 7
+6 -> 9
+Czas wykonania BFS: 0.002572 ms
+
+--- DFS ---
+Kolejnosc odwiedzin (9 wierzcholkow):
+1 2 4 5 6 7 8 9 3 
+Krawedzie drzewa DFS (8 krawedzi):
+1 -> 2
+2 -> 4
+4 -> 5
+5 -> 6
+6 -> 7
+7 -> 8
+6 -> 9
+1 -> 3
+Czas wykonania DFS: 0.0022 ms
+
+TEST: g3_U
+
+--- BFS ---
+Kolejnosc odwiedzin (9 wierzcholkow):
+1 2 3 5 4 6 7 8 9 
+Krawedzie drzewa BFS (8 krawedzi):
+1 -> 2
+1 -> 3
+1 -> 5
+2 -> 4
+3 -> 6
+5 -> 7
+4 -> 8
+6 -> 9
+Czas wykonania BFS: 0.002419 ms
+
+--- DFS ---
+Kolejnosc odwiedzin (9 wierzcholkow):
+1 2 4 5 3 6 7 8 9 
+Krawedzie drzewa DFS (8 krawedzi):
+1 -> 2
+2 -> 4
+4 -> 5
+5 -> 3
+3 -> 6
+6 -> 7
+7 -> 8
+8 -> 9
+Czas wykonania DFS: 0.002666 ms
+
+TEST: cust_D
+
+--- BFS ---
+Kolejnosc odwiedzin (12 wierzcholkow):
+1 2 5 3 6 9 4 7 10 8 11 12 
+Krawedzie drzewa BFS (11 krawedzi):
+1 -> 2
+1 -> 5
+2 -> 3
+2 -> 6
+5 -> 9
+3 -> 4
+3 -> 7
+6 -> 10
+4 -> 8
+7 -> 11
+8 -> 12
+Czas wykonania BFS: 0.002426 ms
+
+--- DFS ---
+Kolejnosc odwiedzin (12 wierzcholkow):
+1 2 3 4 8 5 6 7 11 10 9 12 
+Krawedzie drzewa DFS (11 krawedzi):
+1 -> 2
+2 -> 3
+3 -> 4
+4 -> 8
+8 -> 5
+5 -> 6
+6 -> 7
+7 -> 11
+6 -> 10
+5 -> 9
+8 -> 12
+Czas wykonania DFS: 0.003035 ms
+
+
+TEST: cust_U
+
+--- BFS ---
+Kolejnosc odwiedzin (12 wierzcholkow):
+1 2 4 5 3 6 8 9 7 10 12 11 
+Krawedzie drzewa BFS (11 krawedzi):
+1 -> 2
+1 -> 4
+1 -> 5
+2 -> 3
+2 -> 6
+4 -> 8
+5 -> 9
+3 -> 7
+6 -> 10
+8 -> 12
+7 -> 11
+Czas wykonania BFS: 0.003418 ms
+
+--- DFS ---
+Kolejnosc odwiedzin (12 wierzcholkow):
+1 2 3 4 8 7 6 5 9 10 11 12 
+Krawedzie drzewa DFS (11 krawedzi):
+1 -> 2
+2 -> 3
+3 -> 4
+4 -> 8
+8 -> 7
+7 -> 6
+6 -> 5
+5 -> 9
+9 -> 10
+10 -> 11
+8 -> 12
+Czas wykonania DFS: 0.003405 ms
+
+

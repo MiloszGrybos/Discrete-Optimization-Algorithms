@@ -1,0 +1,88 @@
+==========================================
+TEST: ../../2/g2a-1.txt
+==========================================
+Graf NIE ZAWIERA skierowanego cyklu (jest DAG-iem).
+Porzadek topologiczny (16 wierzcholkow):
+1 2 5 3 6 9 4 7 10 13 8 11 14 12 15 16 
+Czas wykonania: 0.00119 ms
+
+
+==========================================
+TEST: ../../2/g2a-2.txt
+==========================================
+Graf NIE ZAWIERA skierowanego cyklu (jest DAG-iem).
+Porzadek topologiczny (100 wierzcholkow):
+1 2 11 3 12 21 4 13 22 31 5 14 23 32 41 6 15 24 33 42 51 7 16 25 34 43 52 61 8 17 26 35 44 53 62 71 9 18 27 36 45 54 63 72 81 10 19 28 37 46 55 64 73 82 91 20 29 38 47 56 65 74 83 92 30 39 48 57 66 75 84 93 40 49 58 67 76 85 94 50 59 68 77 86 95 60 69 78 87 96 70 79 88 97 80 89 98 90 99 100 
+Czas wykonania: 0.00293 ms
+
+
+==========================================
+TEST: ../../2/g2a-3.txt
+==========================================
+Graf NIE ZAWIERA skierowanego cyklu (jest DAG-iem).
+Czas wykonania: 0.043307 ms
+
+
+==========================================
+TEST: ../../2/g2a-4.txt
+==========================================
+Graf NIE ZAWIERA skierowanego cyklu (jest DAG-iem).
+Czas wykonania: 0.133507 ms
+
+
+==========================================
+TEST: ../../2/g2a-5.txt
+==========================================
+Graf NIE ZAWIERA skierowanego cyklu (jest DAG-iem).
+Czas wykonania: 2.28394 ms
+
+
+==========================================
+TEST: ../../2/g2a-6.txt
+==========================================
+Graf NIE ZAWIERA skierowanego cyklu (jest DAG-iem).
+Czas wykonania: 20.118 ms
+
+
+==========================================
+TEST: ../../2/g2b-1.txt
+==========================================
+Graf ZAWIERA skierowany cykl.
+Czas wykonania: 0.000597 ms
+
+
+==========================================
+TEST: ../../2/g2b-2.txt
+==========================================
+Graf ZAWIERA skierowany cykl.
+Czas wykonania: 0.001618 ms
+
+
+==========================================
+TEST: ../../2/g2b-3.txt
+==========================================
+Graf ZAWIERA skierowany cykl.
+Czas wykonania: 0.015099 ms
+
+
+==========================================
+TEST: ../../2/g2b-4.txt
+==========================================
+Graf ZAWIERA skierowany cykl.
+Czas wykonania: 0.064126 ms
+
+
+==========================================
+TEST: ../../2/g2b-5.txt
+==========================================
+Graf ZAWIERA skierowany cykl.
+Czas wykonania: 1.36504 ms
+
+
+==========================================
+TEST: ../../2/g2b-6.txt
+==========================================
+Graf ZAWIERA skierowany cykl.
+Czas wykonania: 9.99816 ms
+
+
