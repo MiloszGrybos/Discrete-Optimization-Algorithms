@@ -63,7 +63,7 @@ public:
         auto end_time = std::chrono::high_resolution_clock::now();
         std::chrono::duration<double, std::milli> elapsed = end_time - start_time;
 
-        std::cout << "\n--- BFS ---" << std::endl;
+        std::cout << "\nBFS" << std::endl;
         std::cout << "Kolejnosc odwiedzin (" << visit_order.size() << " wierzcholkow):" << std::endl;
         for (int v : visit_order) {
             std::cout << v << " ";
@@ -107,7 +107,7 @@ public:
         auto end_time = std::chrono::high_resolution_clock::now();
         std::chrono::duration<double, std::milli> elapsed = end_time - start_time;
 
-        std::cout << "\n--- DFS ---" << std::endl;
+        std::cout << "\nDFS" << std::endl;
         std::cout << "Kolejnosc odwiedzin (" << visit_order.size() << " wierzcholkow):" << std::endl;
         for (int v : visit_order) {
             std::cout << v << " ";
