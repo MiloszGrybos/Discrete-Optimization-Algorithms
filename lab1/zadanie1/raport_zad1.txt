@@ -1,6 +1,6 @@
 TEST: g1_skierowany.txt
 
---- BFS ---
+BFS
 Kolejnosc odwiedzin (6 wierzcholkow):
 1 2 3 4 5 6 
 Krawedzie drzewa BFS (5 krawedzi):
@@ -11,7 +11,7 @@ Krawedzie drzewa BFS (5 krawedzi):
 3 -> 6
 Czas wykonania BFS: 0.002085 ms
 
---- DFS ---
+DFS
 Kolejnosc odwiedzin (6 wierzcholkow):
 1 2 3 5 6 4 
 Krawedzie drzewa DFS (5 krawedzi):
@@ -24,7 +24,7 @@ Czas wykonania DFS: 0.001943 ms
 
 TEST: g1_nieskierowany.txt
 
---- BFS ---
+BFS
 Kolejnosc odwiedzin (6 wierzcholkow):
 1 2 3 4 5 6 
 Krawedzie drzewa BFS (5 krawedzi):
@@ -35,7 +35,7 @@ Krawedzie drzewa BFS (5 krawedzi):
 3 -> 6
 Czas wykonania BFS: 0.002234 ms
 
---- DFS ---
+DFS
 Kolejnosc odwiedzin (6 wierzcholkow):
 1 2 3 5 4 6 
 Krawedzie drzewa DFS (5 krawedzi):
@@ -48,7 +48,7 @@ Czas wykonania DFS: 0.002977 ms
 
 TEST: g2_D
 
---- BFS ---
+BFS
 Kolejnosc odwiedzin (8 wierzcholkow):
 1 2 4 3 6 8 5 7 
 Krawedzie drzewa BFS (7 krawedzi):
@@ -61,7 +61,7 @@ Krawedzie drzewa BFS (7 krawedzi):
 6 -> 7
 Czas wykonania BFS: 0.002544 ms
 
---- DFS ---
+DFS
 Kolejnosc odwiedzin (8 wierzcholkow):
 1 2 3 4 8 7 6 5 
 Krawedzie drzewa DFS (7 krawedzi):
@@ -76,7 +76,7 @@ Czas wykonania DFS: 0.002424 ms
 
 TEST: g2_U
 
---- BFS ---
+BFS
 Kolejnosc odwiedzin (8 wierzcholkow):
 1 2 4 5 3 6 8 7 
 Krawedzie drzewa BFS (7 krawedzi):
@@ -89,7 +89,7 @@ Krawedzie drzewa BFS (7 krawedzi):
 3 -> 7
 Czas wykonania BFS: 0.002455 ms
 
---- DFS ---
+DFS
 Kolejnosc odwiedzin (8 wierzcholkow):
 1 2 3 4 8 5 6 7 
 Krawedzie drzewa DFS (7 krawedzi):
@@ -104,7 +104,7 @@ Czas wykonania DFS: 0.002594 ms
 
 TEST: g3_D
 
---- BFS ---
+BFS
 Kolejnosc odwiedzin (9 wierzcholkow):
 1 2 3 5 4 6 8 7 9 
 Krawedzie drzewa BFS (8 krawedzi):
@@ -118,7 +118,7 @@ Krawedzie drzewa BFS (8 krawedzi):
 6 -> 9
 Czas wykonania BFS: 0.002572 ms
 
---- DFS ---
+DFS
 Kolejnosc odwiedzin (9 wierzcholkow):
 1 2 4 5 6 7 8 9 3 
 Krawedzie drzewa DFS (8 krawedzi):
@@ -134,7 +134,7 @@ Czas wykonania DFS: 0.0022 ms
 
 TEST: g3_U
 
---- BFS ---
+BFS
 Kolejnosc odwiedzin (9 wierzcholkow):
 1 2 3 5 4 6 7 8 9 
 Krawedzie drzewa BFS (8 krawedzi):
@@ -148,7 +148,7 @@ Krawedzie drzewa BFS (8 krawedzi):
 6 -> 9
 Czas wykonania BFS: 0.002419 ms
 
---- DFS ---
+DFS
 Kolejnosc odwiedzin (9 wierzcholkow):
 1 2 4 5 3 6 7 8 9 
 Krawedzie drzewa DFS (8 krawedzi):
@@ -164,7 +164,7 @@ Czas wykonania DFS: 0.002666 ms
 
 TEST: cust_D
 
---- BFS ---
+BFS
 Kolejnosc odwiedzin (12 wierzcholkow):
 1 2 5 3 6 9 4 7 10 8 11 12 
 Krawedzie drzewa BFS (11 krawedzi):
@@ -181,7 +181,7 @@ Krawedzie drzewa BFS (11 krawedzi):
 8 -> 12
 Czas wykonania BFS: 0.002426 ms
 
---- DFS ---
+DFS
 Kolejnosc odwiedzin (12 wierzcholkow):
 1 2 3 4 8 5 6 7 11 10 9 12 
 Krawedzie drzewa DFS (11 krawedzi):
@@ -201,7 +201,7 @@ Czas wykonania DFS: 0.003035 ms
 
 TEST: cust_U
 
---- BFS ---
+BFS
 Kolejnosc odwiedzin (12 wierzcholkow):
 1 2 4 5 3 6 8 9 7 10 12 11 
 Krawedzie drzewa BFS (11 krawedzi):
@@ -218,7 +218,7 @@ Krawedzie drzewa BFS (11 krawedzi):
 7 -> 11
 Czas wykonania BFS: 0.003418 ms
 
---- DFS ---
+DFS
 Kolejnosc odwiedzin (12 wierzcholkow):
 1 2 3 4 8 7 6 5 9 10 11 12 
 Krawedzie drzewa DFS (11 krawedzi):
